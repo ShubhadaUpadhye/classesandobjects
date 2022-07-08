@@ -25,9 +25,9 @@ class pattern:
 a=pattern()
 a.pattern_2(int(input("enter value for n: ")))
 
-'''import logging as log
-#ldts=list,dictionary,tuple,set
+import logging as log
 log.basicConfig(filename="ldts.log",level=log.INFO,format='%(asctime)s %(levelname)s %(name)s %(message)s')
+#ldts=list,dictionary,tuple,set
 class ldts:
     def __init__(self,l):
         self.l=l
@@ -252,4 +252,3 @@ a=ldts(l=[[1,2,3,4], (2,3,4,5,6), (3,4,5,6,7), {23,4,5,45,4,4,5,45,45,4,5,} ,{"k
 l1=[1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 3, 6, 7, 8]
 print(a.occurance_l1([1, 2, 3, 4, 2, 3, 4, 5, 6, 3, 4, 5, 6, 7, 45, 4, 5, 23, 3, 6, 7, 8]))
 print(a.num_keys())
-'''
